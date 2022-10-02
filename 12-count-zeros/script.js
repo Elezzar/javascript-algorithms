@@ -7,6 +7,15 @@
 */
 
 function countZeros(n) {
+    let count = 0
+    for (let i = 1; i <= n; i++) {
+        `${i}`.split('').forEach(element => {
+           if( element.includes('0')){
+            count +=1
+           }
+        });
+    }
+    return count
     // Напишите код здесь
 }
 

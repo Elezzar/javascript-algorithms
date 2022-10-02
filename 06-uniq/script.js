@@ -8,6 +8,7 @@
 */
 
 function uniq(arr) {
+    return Array.from(new Set(arr));
     // Напишите код здесь
 }
 
